@@ -1,0 +1,90 @@
+
+div.container {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    border: 10px solid black;
+	color: white;
+	float: CENTER;
+	text-align: center;
+	background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 60%,#7db9e8 100%);
+	display: block;
+	overflow: hidden;
+	padding: 20px;
+}
+
+div.containerText{
+	text-align: left;
+	margin: 20px;
+}
+
+div.header {
+	color: black;
+	font-size: 24px;
+}
+
+div.nav_bar {
+	float: CENTER;
+    color: white;
+    margin: 0 auto;
+	text-align: center;
+	display: inline-block;
+	padding: 15px 32px;
+	border-color: red;
+}
+
+form {
+	display: table;
+	margin: 0 auto;
+	float: CENTER;
+}
+p {display: table-row;}
+
+label {
+	display: table-cell;
+	text-align: left;
+}
+
+input {
+	border-radius: 4px;
+	display: table-cell; 
+	margin: 5px;
+}
+
+input[name=status]{
+	height: 50px;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+
+	font-size: 16px;
+	float: left;
+}
+
+div.bodyText{
+	text-align: center;
+	margin: 20px;
+}
+
+table {
+	margin: 0 auto;
+	float: CENTER;
+}
+
+a:link {
+	border: 1px solid white;
+}
+
+/* Change the color of links on hover */
+a:hover {
+    background-color: grey;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+a.active {
+    background-color: grey;
+    color: black;
+}
+
